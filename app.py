@@ -4,7 +4,6 @@ Here's our first attempt at using data to create a table:
 """
 
 import pandas as pd
-import polars as pl
 
 import streamlit as st
 
@@ -42,13 +41,6 @@ def comprehensive_style(df):
 styled_df = comprehensive_style(players)
 # styled_df = pd.DataFrame(styled_df).iloc[:,:-10]
 styled_df
-
-# players.style.set_table_styles([
-#     {'selector': 'th', 'props': [('text-align', 'center'), ('width', 'auto')]},
-#     {'selector': '.dataframe', 'props': [('margin-left', 'auto'), ('margin-right', 'auto')]}
-# ])
-
-# players
 
 relevant = players.iloc[:,:-10]
 relevant
