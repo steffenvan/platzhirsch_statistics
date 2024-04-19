@@ -1,8 +1,3 @@
-"""
-# My first app
-Here's our first attempt at using data to create a table:
-"""
-
 import pandas as pd
 
 import streamlit as st
@@ -13,44 +8,67 @@ def wide_space_default():
 
 wide_space_default()
 
-def clean_numbers(x):
-    if isinstance(x, str) and x.isnumeric():
-        return round(x, 2)
-    return x
-
-
+pd.set_option('display.max_rows', 100)
 games = pd.read_csv("skybowl_games.csv")
+games.set_index("Opponent", inplace=True)
 players = pd.read_csv("skybowl_players.csv")
 players = players.round(2)
+players.set_index("Player", inplace=True)
 
-def category(row):
-    # Checks if the 'Category' column in the row is 'D', applies a green background; otherwise, blue.
-    return ['background-color: #90EE90' if row['Category'] == 'D' else 'background-color: #ADD8E6' for _ in row]
+def win_loss_color(df):
+  def color(row):
+      return ['background-color: green' if x == "Win" else 'background-color: red' for x in row] 
+  
+  return df.style.apply(color, subset=["Result"], axis=1)
 
-# players.style.apply(alternate_row_color, axis=0)
-def comprehensive_style(df):
-    return (df.style
-            .apply(category, axis=1)
-            # .bar(subset=['Points played total', 'Touches'], color='lightblue')
-            # .set_properties(**{'background-color': '#f4f4f4', 'font-size': '12pt'})
-            .set_table_styles([
-                {'selector': 'th', 'props': [('text-align', 'center'), ('font-size', '12pt')]},
-                {'selector': 'td', 'props': [('text-align', 'center')]}
-            ]))
+def position_color(df):
+    def color(row):
+        return ['background-color: #90EE90' if x == 'D' else 'background-color: #ADD8E6' for x in row]
+    
+    return df.style.apply(color, subset=["Category"], axis=1)
 
-styled_df = comprehensive_style(players)
-# styled_df = pd.DataFrame(styled_df).iloc[:,:-10]
-styled_df
+cols = ['Category', 'Points played total','Touches', 'A1', 'A2', 'Goals','Defensive blocks', 'Thrower errors', 'Receiver errors', 'Turnovers', 'Offense points played', 'Defense points played', 'Offense points won', 'Defense points won', 'Points played with touches', 'Throws', 'Catches', 'Possessions initiated']
+player_stats_columns = players.columns[:-10].tolist()
+player_stats = players[cols].copy()
 
-relevant = players.iloc[:,:-10]
-relevant
+player_stats = position_color(player_stats)
 
-distances = players.iloc[:,-8:]
-distances = pd.concat([players[['Player']], players.iloc[:, -8:]], axis=1)
-distances = distances.round(2)
-distances
+# Add category to the distances columns
+distance_columns = players.columns[-8:].tolist()
+distances = players[distance_columns].copy()
+distances.insert(0, 'Category', players['Category'])  # Insert 'Category' at the first position
 
+player_distances = position_color(distances)
 
 
+st.header("Team highlights")
+st.markdown(
+"""
+- **Total scoring efficiency:** 43%
+- **Offensive scoring efficiency:** 40%
+- **Defensive scoring efficiency:** 49%
+- **Defensive turnover efficiency:** 61%
+- **Point recovery:** 30%
+- **Pass completion:** 92%
+""")
 
+st.header("Individual highlights")
+st.markdown(
+    """
+    - **Top scorer:** Max (12 goals) 
+    - **Top assists:** Osci (11 assists)
+    - **Most blocks:** Valentin (8 blocks)
+    - **No turnovers:** Chrigu (0 turnovers) :)) 
+    - Mo with second most goals and second most assists despite only playing 1 day. 
+    """
+)
 
+st.header("Player stats")
+st.dataframe(player_stats)
+
+st.header("Distances")
+st.dataframe(player_distances)
+
+styled_games = win_loss_color(games)
+st.header("Games")
+st.dataframe(games)
