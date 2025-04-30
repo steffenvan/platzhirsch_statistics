@@ -1,0 +1,178 @@
+{
+  "games": [
+    {
+      "opponent": "u20",
+      "stats": {
+        "Per Point": {
+          "Total Scoring Efficiency": {"percentage": "38%", "ratio": "6/16"},
+          "Offensive Scoring Efficiency": {"percentage": "56%", "ratio": "5/9"},
+          "Defensive Scoring Efficiency": {"percentage": "14%", "ratio": "1/7"},
+          "Defensive Turnovers Efficiency": {"percentage": "43%", "ratio": "3/7"},
+          "Point Recovery": {"percentage": "14%", "ratio": "1/7"},
+          "Pass Completion": {"percentage": "88%", "ratio": "107/121"}
+        },
+        "Per Possession": {
+          "Total Scoring Efficiency": {"percentage": "30%", "ratio": "6/20"},
+          "Offensive Scoring Efficiency": {"percentage": "36%", "ratio": "5/14"},
+          "Defensive Scoring Efficiency": {"percentage": "17%", "ratio": "1/6"},
+          "Defensive Turnovers Efficiency": {"percentage": "43%", "ratio": "3/7"},
+          "Point Recovery": {"percentage": "14%", "ratio": "1/7"},
+          "Pass Completion": {"percentage": "88%", "ratio": "107/121"}
+        },
+        "First Possession": {
+          "Total Scoring Efficiency": {"percentage": "42%", "ratio": "5/12"},
+          "Offensive Scoring Efficiency": {"percentage": "56%", "ratio": "5/9"},
+          "Defensive Scoring Efficiency": {"percentage": "0%", "ratio": "0/3"},
+          "Defensive Turnovers Efficiency": {"percentage": "43%", "ratio": "3/7"},
+          "Point Recovery": {"percentage": "14%", "ratio": "1/7"},
+          "Pass Completion": {"percentage": "88%", "ratio": "107/121"}
+        }
+      }
+    },
+    {
+      "opponent": "Discobolo",
+      "stats": {
+        "Per Point": {
+          "Total Scoring Efficiency": {"percentage": "75%", "ratio": "12/16"},
+          "Offensive Scoring Efficiency": {"percentage": "100%", "ratio": "8/8"},
+          "Defensive Scoring Efficiency": {"percentage": "67%", "ratio": "8/12"},
+          "Defensive Turnovers Efficiency": {"percentage": "67%", "ratio": "8/12"},
+          "Point Recovery": {"percentage": "100%", "ratio": "4/4"},
+          "Pass Completion": {"percentage": "93%", "ratio": "83/89"}
+        },
+        "Per Possession": {
+          "Total Scoring Efficiency": {"percentage": "67%", "ratio": "12/18"},
+          "Offensive Scoring Efficiency": {"percentage": "100%", "ratio": "8/8"},
+          "Defensive Scoring Efficiency": {"percentage": "57%", "ratio": "8/14"},
+          "Defensive Turnovers Efficiency": {"percentage": "67%", "ratio": "8/12"},
+          "Point Recovery": {"percentage": "100%", "ratio": "4/4"},
+          "Pass Completion": {"percentage": "93%", "ratio": "83/89"}
+        },
+        "First Possession": {
+          "Total Scoring Efficiency": {"percentage": "67%", "ratio": "8/12"},
+          "Offensive Scoring Efficiency": {"percentage": "100%", "ratio": "4/4"},
+          "Defensive Scoring Efficiency": {"percentage": "50%", "ratio": "4/8"},
+          "Defensive Turnovers Efficiency": {"percentage": "67%", "ratio": "8/12"},
+          "Point Recovery": {"percentage": "100%", "ratio": "4/4"},
+          "Pass Completion": {"percentage": "93%", "ratio": "83/89"}
+        }
+      }
+    },
+    {
+      "opponent": "Flying Colors - 3rd place game",
+      "stats": {
+        "Per Point": {
+          "Total Scoring Efficiency": {"percentage": "67%", "ratio": "10/15"},
+          "Offensive Scoring Efficiency": {"percentage": "100%", "ratio": "6/6"},
+          "Defensive Scoring Efficiency": {"percentage": "44%", "ratio": "4/9"},
+          "Defensive Turnovers Efficiency": {"percentage": "67%", "ratio": "6/9"},
+          "Point Recovery": {"percentage": "67%", "ratio": "4/6"},
+          "Pass Completion": {"percentage": "89%", "ratio": "94/106"}
+        },
+        "Per Possession": {
+          "Total Scoring Efficiency": {"percentage": "45%", "ratio": "10/22"},
+          "Offensive Scoring Efficiency": {"percentage": "43%", "ratio": "6/14"},
+          "Defensive Scoring Efficiency": {"percentage": "50%", "ratio": "4/8"},
+          "Defensive Turnovers Efficiency": {"percentage": "67%", "ratio": "6/9"},
+          "Point Recovery": {"percentage": "67%", "ratio": "4/6"},
+          "Pass Completion": {"percentage": "89%", "ratio": "94/106"}
+        },
+        "First Possession": {
+          "Total Scoring Efficiency": {"percentage": "50%", "ratio": "6/12"},
+          "Offensive Scoring Efficiency": {"percentage": "50%", "ratio": "3/6"},
+          "Defensive Scoring Efficiency": {"percentage": "50%", "ratio": "3/6"},
+          "Defensive Turnovers Efficiency": {"percentage": "67%", "ratio": "6/9"},
+          "Point Recovery": {"percentage": "67%", "ratio": "4/6"},
+          "Pass Completion": {"percentage": "89%", "ratio": "94/106"}
+        }
+      }
+    },
+    {
+      "opponent": "Flying Colors",
+      "stats": {
+        "Per Point": {
+          "Total Scoring Efficiency": {"percentage": "47%", "ratio": "9/19"},
+          "Offensive Scoring Efficiency": {"percentage": "50%", "ratio": "5/10"},
+          "Defensive Scoring Efficiency": {"percentage": "44%", "ratio": "4/9"},
+          "Defensive Turnovers Efficiency": {"percentage": "67%", "ratio": "6/9"},
+          "Point Recovery": {"percentage": "12.5%", "ratio": "1/8"},
+          "Pass Completion": {"percentage": "89%", "ratio": "85/97"}
+        },
+        "Per Possession": {
+          "Total Scoring Efficiency": {"percentage": "43%", "ratio": "9/21"},
+          "Offensive Scoring Efficiency": {"percentage": "42%", "ratio": "5/12"},
+          "Defensive Scoring Efficiency": {"percentage": "44%", "ratio": "4/9"},
+          "Defensive Turnovers Efficiency": {"percentage": "67%", "ratio": "6/9"},
+          "Point Recovery": {"percentage": "12.5%", "ratio": "1/8"},
+          "Pass Completion": {"percentage": "89%", "ratio": "85/97"}
+        },
+        "First Possession": {
+          "Total Scoring Efficiency": {"percentage": "50%", "ratio": "8/16"},
+          "Offensive Scoring Efficiency": {"percentage": "50%", "ratio": "5/10"},
+          "Defensive Scoring Efficiency": {"percentage": "50%", "ratio": "3/6"},
+          "Defensive Turnovers Efficiency": {"percentage": "67%", "ratio": "6/9"},
+          "Point Recovery": {"percentage": "12.5%", "ratio": "1/8"},
+          "Pass Completion": {"percentage": "89%", "ratio": "85/97"}
+        }
+      }
+    },
+    {
+      "opponent": "Spaccamadoni",
+      "stats": {
+        "Per Point": {
+          "Total Scoring Efficiency": {"percentage": "59%", "ratio": "10/17"},
+          "Offensive Scoring Efficiency": {"percentage": "62%", "ratio": "5/8"},
+          "Defensive Scoring Efficiency": {"percentage": "56%", "ratio": "5/9"},
+          "Defensive Turnovers Efficiency": {"percentage": "56%", "ratio": "5/9"},
+          "Point Recovery": {"percentage": "50%", "ratio": "3/6"},
+          "Pass Completion": {"percentage": "93%", "ratio": "119/128"}
+        },
+        "Per Possession": {
+          "Total Scoring Efficiency": {"percentage": "53%", "ratio": "10/19"},
+          "Offensive Scoring Efficiency": {"percentage": "38%", "ratio": "5/13"},
+          "Defensive Scoring Efficiency": {"percentage": "83%", "ratio": "5/6"},
+          "Defensive Turnovers Efficiency": {"percentage": "56%", "ratio": "5/9"},
+          "Point Recovery": {"percentage": "50%", "ratio": "3/6"},
+          "Pass Completion": {"percentage": "93%", "ratio": "119/128"}
+        },
+        "First Possession": {
+          "Total Scoring Efficiency": {"percentage": "54%", "ratio": "7/13"},
+          "Offensive Scoring Efficiency": {"percentage": "38%", "ratio": "3/8"},
+          "Defensive Scoring Efficiency": {"percentage": "80%", "ratio": "4/5"},
+          "Defensive Turnovers Efficiency": {"percentage": "56%", "ratio": "5/9"},
+          "Point Recovery": {"percentage": "50%", "ratio": "3/6"},
+          "Pass Completion": {"percentage": "93%", "ratio": "119/128"}
+        }
+      }
+    },
+    {
+      "opponent": "Falcons Limmattal",
+      "stats": {
+        "Per Point": {
+          "Total Scoring Efficiency": {"percentage": "88%", "ratio": "14/16"},
+          "Offensive Scoring Efficiency": {"percentage": "100%", "ratio": "3/3"},
+          "Defensive Scoring Efficiency": {"percentage": "85%", "ratio": "11/13"},
+          "Defensive Turnovers Efficiency": {"percentage": "85%", "ratio": "11/13"},
+          "Point Recovery": {"percentage": "100%", "ratio": "9/9"},
+          "Pass Completion": {"percentage": "85%", "ratio": "98/115"}
+        },
+        "Per Possession": {
+          "Total Scoring Efficiency": {"percentage": "45%", "ratio": "14/31"},
+          "Offensive Scoring Efficiency": {"percentage": "43%", "ratio": "3/7"},
+          "Defensive Scoring Efficiency": {"percentage": "46%", "ratio": "11/24"},
+          "Defensive Turnovers Efficiency": {"percentage": "85%", "ratio": "11/13"},
+          "Point Recovery": {"percentage": "100%", "ratio": "9/9"},
+          "Pass Completion": {"percentage": "85%", "ratio": "98/115"}
+        },
+        "First Possession": {
+          "Total Scoring Efficiency": {"percentage": "36%", "ratio": "5/14"},
+          "Offensive Scoring Efficiency": {"percentage": "33%", "ratio": "1/3"},
+          "Defensive Scoring Efficiency": {"percentage": "36%", "ratio": "4/11"},
+          "Defensive Turnovers Efficiency": {"percentage": "85%", "ratio": "11/13"},
+          "Point Recovery": {"percentage": "100%", "ratio": "9/9"},
+          "Pass Completion": {"percentage": "85%", "ratio": "98/115"}
+        }
+      }
+    }
+  ]
+}
