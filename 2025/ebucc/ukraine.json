@@ -1,0 +1,33 @@
+{
+    "TE": {
+        "Mario": 3,
+        "Luca": 1,
+        "Victor": 1,
+        "Martin": 3,
+        "Yannick": 1,
+        "Finn": 1
+    },
+    "RE": {
+        "Yong-Da": 1
+    },
+    "B": {
+        "Valentin": 1
+    },
+    "Played": {
+        "Silly": [1, 5],
+        "Hagen": [2, 6],
+        "Ricky": [4, 9],
+        "Quinn": [7, 4],
+        "Yannick": [2, 4],
+        "Steffen": [3, 7],
+        "Luca": [2, 4],
+        "Mario": [4, 4],
+        "Moritz": [8, 3],
+        "Martin": [8, 4],
+        "Victor": [5, 3],
+        "Finn": [5, 3],
+        "Yong-Da": [2, 3],
+        "Valentin": [2, 5]
+    }
+}
+
